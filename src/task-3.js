@@ -19,8 +19,6 @@ const makeTransaction = (transaction) => {
 };
 
 const logSuccess = (id, time) => {
-  console.log(id);
-  console.log(time);
   console.log(`Transaction ${id} processed in ${time}ms`);
 };
 
